@@ -1,0 +1,142 @@
+:root {
+    --main-color: #DC3545;
+    /**/
+}
+
+.bg-dark {
+    background-color: #161918 !important;
+}
+
+.bg-wave-dark {
+    background-image: url(../img/bg-wave-dark.svg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.bg-wave-dark h1 {
+    padding: 0px 0 100px 0;
+}
+
+.text-main-color {
+    color: var(--main-color);
+}
+
+a.navbar-brand img {
+    background-color: white;
+    border-radius: 5px;
+}
+
+li.active {
+    background-color: var(--main-color);
+    border-radius: 5px;
+}
+
+main {
+    padding-top: 60px;
+}
+
+.main-view {
+    background-image: url(../img/bg-peoples.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.main-view .mask-main-view {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.main-view .mask-main-view div {
+    padding: 100px 15px;
+    color: aliceblue;
+}
+
+.main-view .mask-main-view div h1 {
+    font-size: 50px;
+}
+
+.main-view .mask-main-view div h2 {
+    font-size: 30px;
+}
+
+
+/*
+ * Apresentação - Mapa
+ */
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    /*position: relative;*/
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*
+ * Datas - Lista de datas
+ */
+
+
+
+#datas-importantes ul#lista-datas span:nth-child(2) {
+    color: var(--main-color) !important;
+}
+
+
+/*
+ * Footer
+ */
+footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query for `xs` since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .main-view .mask-main-view div h1 {
+        font-size: 70px;
+    }
+
+    .main-view .mask-main-view div h2 {
+        font-size: 50px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .main-view .mask-main-view div {
+        padding: 150px 15px;
+    }
+
+    .main-view .mask-main-view div h1 {
+        font-size: 90px;
+    }
+
+    .main-view .mask-main-view div h2 {
+        font-size: 60px;
+    }
+}

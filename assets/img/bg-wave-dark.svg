@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1300" height="499" enable-background="new 0 0 1300 499" xml:space="preserve"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+<title>wave_background</title>
+<desc>Created with Sketch.</desc>
+
+<g class="currentLayer" style=""><title>Layer 1</title>
+	
+		
+			<path id="Wave" opacity="0.15" fill="#C4C4C4" enable-background="new    " d="M0,0h1300c-0.156,99.066-0.156,259.046,0,479.939     c-360.621,42.35-321.107-40.244-650-28.987c-328.894,11.257-343.411,60.248-650,0C1,327.508,1,177.191,0,0z" class=""/>
+			
+				<radialGradient id="Wave_2_" cx="344.8302917480469" cy="644.9921875" r="1.4780000448226929" gradientTransform="matrix(439.0415 -155.1758 155.1757 439.0417 -251698.4375 -229156.3438)" gradientUnits="userSpaceOnUse">
+				<stop offset="0" style="stop-color:#0069FF"/>
+				<stop offset="0.0291" style="stop-color:#0269FD"/>
+				<stop offset="0.0451" style="stop-color:#0369FC"/>
+				<stop offset="0.0601" style="stop-color:#0468FB"/>
+				<stop offset="0.2548" style="stop-color:#1165EF"/>
+				<stop offset="1" style="stop-color:#4457C0"/>
+			</radialGradient>
+			<path id="Wave_1_" fill="#161918" d="M1302,0 H376.6086768505045 H0.028755870823525598 c0,223.961 0,366.85 0,428.667 c80.45601855727077,-11.923 154.30210624023474,-29.332 343.9755988169379,-11.923 c189.67249183016676,17.411 256.6484545393053,87.045 532.3561268683417,21.03 c183.8061156325609,-44.01 325.68495436732314,-40.771 425.63951844389663,9.716 V0 z" class="" fill-opacity="1"/>
+		
+	
+</g></svg>
